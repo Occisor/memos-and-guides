@@ -8,7 +8,7 @@ docker cp wg-3p.wireguard_cli.1:/usr/bin/wg-quick /home/user/
 ```
 Скопировать файл `wg-quick` из диретории хоста `/home/user/` в контейнера `wg-3p.wireguard_cli.1`.
 ```
-docker cp /home/user/ wg-3p.wireguard_cli.1:/usr/bin/wg-quick
+docker cp /home/user/wg-quick wg-3p.wireguard_cli.1:/usr/bin/
 ```
 ---
 ### Docker Compose allows us to execute commands inside a Docker container.
