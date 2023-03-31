@@ -34,5 +34,5 @@ git push
 3. `git commit -m "Commit text"`: коммитит изменения с сообщением, которое содержит краткое описание изменений.
 4. `git push`: отправляет коммиты в удаленный репозиторий Git.
 
-### .gitignore
+### Настройка .gitignore
 https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
