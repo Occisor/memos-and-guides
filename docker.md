@@ -1,6 +1,6 @@
 # docker-commands
 
-### Копирование файла с контейнера на хост.
+### Копирование файла с контейнера на хост
 Скопировать файл `wg-quick` из контейнера `wg-3p.wireguard_cli.1` в директорию на `/home/occisor/` на хосте.
 ```
 docker cp wg-3p.wireguard_cli.1:/usr/bin/wg-quick /home/occisor/
