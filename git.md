@@ -2,7 +2,7 @@
 git commands memo
 
 
-### Настройка имени пользователя и адреса электронной почты.
+### Настройка имени пользователя и адреса электронной почты
 ```
 git config --global user.name "Name"
 git config --global user.email email@example.com
