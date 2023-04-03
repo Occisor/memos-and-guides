@@ -23,3 +23,20 @@ And close out of the nano editor using `CTRL+O` to save and `CTRL+X` to exit.
 ### Final steps
 
 With the above steps done, close your WSL distro Windows and `run wsl.exe --shutdown` from PowerShell to restart your WSL instances. Upon launch you should have systemd running. You can check this with the command `systemctl list-unit-files --type=service` which should show your services’ status.
+
+# How to Disable Snap on Ubuntu WSL version
+Для использования дефолтной версии это действие не обязательно. Но если захотите поиграться с графикой (поддержка была в Window 11 и недавно появилась в Windows 10), то придется удалять, чтоб сохранить психику.
+Проверям, что пакеты snap не установлены.
+```
+sudo snap list
+```
+В выводе должно быть пусто.
+Удаляем snapd.
+```
+sudo apt autoremove --purge snapd
+```
+Очищаем кэш.
+```
+sudo rm -rf /var/cache/snapd/
+rm -rf ~/snap
+```
