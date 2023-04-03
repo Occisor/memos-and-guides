@@ -12,3 +12,4 @@
   - [Настройка .gitignore](https://github.com/Occisor/memos-and-guides/blob/main/git.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-gitignore "Настройка .gitignore")  
 + [WSL memos](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#how-can-you-get-systemd-on-your-machine "WSL memos")  
   - [Активация systemd](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#how-can-you-get-systemd-on-your-machine "Активация systemd")  
+  - [Отключение snapd](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#how-to-disable-snap-on-ubuntu-wsl-version "Отключение snapd")  
