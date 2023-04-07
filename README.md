@@ -13,3 +13,4 @@
 + [WSL memos](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#how-can-you-get-systemd-on-your-machine "WSL memos")  
   - [Активация systemd](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#how-can-you-get-systemd-on-your-machine "Активация systemd")  
   - [Отключение snapd в образе Ubuntu](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-snapd-%D0%B2-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B5-ubuntu "Отключение snapd в образе Ubuntu")  
+  - [Автозавершение команд по TAB в Debian](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4-%D0%BF%D0%BE-tab-%D0%B2-debian "Автозавершение команд по TAB в Debian")  
