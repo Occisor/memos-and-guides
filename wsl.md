@@ -40,3 +40,9 @@ sudo apt autoremove --purge snapd
 sudo rm -rf /var/cache/snapd/
 rm -rf ~/snap
 ```
+# Автозавершение команд по TAB в Debian
+В Debian WSL из коробки не активировано автозавершение команд по нажатию TAB. Для активации нужно выполнить следующее.
+Необходимо установить пакет `bash-completion`:
+```
+sudo apt install bash-completion
+```
