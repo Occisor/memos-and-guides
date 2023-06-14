@@ -22,5 +22,5 @@ gpg --full-gen-key
 
 ---
 ### Tmux installation and use
-Полезные ссылки (отрtдактировать позже):  
+Полезные ссылки (отредактировать позже):  
 https://habr.com/ru/articles/327630/
