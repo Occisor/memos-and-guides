@@ -12,12 +12,12 @@ https://wiki.mcabber.com/ru.html
 ```
 apt install pass
 ```
-Для дальнейшего использования `pass`, у вас должен быть GPG ключ, если у вас его нет, то необходимо создать [GPG ключ](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка"). Выберите вариант 1 (RSA и RSA) для типа ключа.  
+Для дальнейшего использования `pass`, у вас должен быть GPG ключ, если у вас его нет, то необходимо [его создать](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка"). Выберите вариант 1 (RSA и RSA) для типа ключа.  
 Инициализируем шифрование по идентификатору ключа.
 ```
 pass init 'идентификатор ключа'
 ```
-В качестве идентификатора можно использовать например D95BF1929075632D832183036AA43518EEB00A4A или example, из вывода `gpg --list-keys` ниже:
+В качестве идентификатора можно использовать, например D95BF1929075632D832183036AA43518EEB00A4A или example, из вывода `gpg --list-keys` ниже:
 ```
 pub   rsa4096 2023-06-14 [SC]
       D95BF1929075632D832183036AA43518EEB00A4A
