@@ -7,7 +7,7 @@ http://old.open-suse.ru/modules/smartsection/item.php?itemid=87
 https://wiki.mcabber.com/ru.html
 
 ---
-### pass installation and use
+### Pass installation and use
 Установка:
 ```
 apt install pass
