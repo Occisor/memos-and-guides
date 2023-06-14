@@ -16,6 +16,6 @@
   - [Автозавершение команд по TAB в Debian](https://github.com/Occisor/memos-and-guides/blob/main/wsl.md#%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4-%D0%BF%D0%BE-tab-%D0%B2-debian "Автозавершение команд по TAB в Debian")  
 + [Utils memos](https://github.com/Occisor/memos-and-guides/blob/main/utils.md "Utils memos")  
   - [Mcabber установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "Mcabber установка")
-  - [pass установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#pass-installation-and-use "pass установка")
+  - [Pass установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#pass-installation-and-use "pass установка")
   - [GPG-key установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка")
   - [Tmux установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#tmux-installation-and-use "Tmux установка")
