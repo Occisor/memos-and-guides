@@ -12,7 +12,7 @@ https://wiki.mcabber.com/ru.html
 ```
 install pass
 ```
-Для дальнейшего использования `pass`, у вас должен быть GPG ключ, если у вас его нет, то необходимо создать [GPG ключ](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка"). Выберите вариант 1 (RSA и RSA) для типа ключа.
+Для дальнейшего использования `pass`, у вас должен быть GPG ключ, если у вас его нет, то необходимо создать [GPG ключ](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка"). Выберите вариант 1 (RSA и RSA) для типа ключа.  
 Инициализируем шифрование по идентификатору ключа.
 ```
 pass init 'идентификатор ключа'
