@@ -13,11 +13,43 @@ https://wiki.mcabber.com/ru.html
 install pass
 ```
 Для дальнейшего использования `pass`, у вас должен быть GPG ключ, если у вас его нет, то необходимо создать [GPG ключ](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка"). Для использования в утилите `pass` выберите вариант 1 (RSA и RSA) для типа ключа.
-
-Полезные ссылки (отредактировать позже):  
-https://www.redhat.com/sysadmin/management-password-store  
-https://www.howtogeek.com/devops/how-to-use-pass-a-command-line-password-manager-for-linux-systems/  
-
+Инициализируем шифрование по идентификатору ключа.
+```
+pass init 'идентификатор ключа'
+```
+В качестве идентификатора можно использовать например D95BF1929075632D832183036AA43518EEB00A4A или example, из вывода `gpg --list-keys` ниже:
+```
+pub   rsa4096 2023-06-14 [SC]
+      D95BF1929075632D832183036AA43518EEB00A4A
+uid           [ultimate] example
+sub   rsa4096 2023-06-14 [E]
+```
+Вносим новый пароль:
+```
+pass insert resource/name
+```
+Этой командой создадим пароль в ветке:
+```
+Password Store
+└── resource
+    └── name
+```
+Генерируем пароль:
+```
+pass generate resource/name
+```
+Выводим/отображаем пароль:
+```
+pass resource/name
+```
+Список имен сохраненных паролей:
+```
+pass
+```
+Удаляем пароль:
+```
+pass rm resource/name
+```
 ---
 ### GPG-key installation and use
 Сгенерируйте пару ключей, набрав в терминале:
@@ -68,7 +100,7 @@ Comment:
       │       <OK>                              <Cancel>     │
       └──────────────────────────────────────────────────────┘
 ```
-Завершаем установку. Созданные ключи храняться в папке `.gnupg`, домашней дирректории.
+Завершаем установку. Созданные ключи хранятся в папке `.gnupg`, домашней дирректории.
 Список установленных ключей:
 ```
 gpg --list-keys
