@@ -1,4 +1,6 @@
-# How can you get systemd on your machine?
+# Linux/WSL configs
+
+### How can you get systemd on your machine?
 
 To get started, you will need to do these two things: – Ensure you are running the right version of WSL: Version 0.67.6 and above – Set the systemd flag set in your WSL distro settings
 ### Ensuring you are on the right WSL version
