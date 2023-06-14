@@ -1,4 +1,4 @@
-# Linux/WSL configs
+# Linux/WSL memos
 
 ### How can you get systemd on your machine?
 
