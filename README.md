@@ -18,3 +18,4 @@
   - [Mcabber установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "Mcabber установка")
   - [pass установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#pass-installation-and-use "pass установка")
   - [GPG-key установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка")
+  - [Tmux установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#tmux-installation-and-use "Tmux установка")
