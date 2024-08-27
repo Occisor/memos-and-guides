@@ -1,7 +1,7 @@
-Установка OpenWRT x86
-!(preview)!
-https://downloads.openwrt.org/releases/23.05.4/targets/x86/64/
-generic-ext4-combined.img.gz
+### Установка OpenWRT x86  
+!(preview)!  
+https://downloads.openwrt.org/releases/23.05.4/targets/x86/64/  
+generic-ext4-combined.img.gz  
 
 1. Создать виртуальный диск через диспетчер дисков, размером 512 Mb VHD
 2. Выполнить команду GET-CimInstance -query "SELECT * from Win32_DiskDrive" она выведет список дисков, найти свой созданный. Например: \\.\PhysicalDrive4
