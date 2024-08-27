@@ -20,4 +20,5 @@
   - [Pass установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#pass-installation-and-use "pass установка")
   - [GPG-key установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#gpg-key-installation-and-use "GPG-key установка")
   - [Tmux установка](https://github.com/Occisor/memos-and-guides/blob/main/utils.md#tmux-installation-and-use "Tmux установка")
-+ [Linux/OpenWRT memos](https://github.com/Occisor/memos-and-guides/blob/main/openwrt.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-openwrt-x86)  
++ [Linux/OpenWRT memos](https://github.com/Occisor/memos-and-guides/edit/main/openwrt.md#linuxopenwrt "Linux/OpenWRT memos")
+  - [Установка OpenWRT x86](https://github.com/Occisor/memos-and-guides/blob/main/openwrt.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-openwrt-x86 "Установка OpenWRT x86")
