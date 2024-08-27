@@ -1,5 +1,6 @@
 # Linux/OpenWRT  
 ### Установка OpenWRT x86  
+Hyper-V
 !(preview)!  
 https://downloads.openwrt.org/releases/23.05.4/targets/x86/64/  
 generic-ext4-combined.img.gz  
