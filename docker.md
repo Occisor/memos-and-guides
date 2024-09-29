@@ -21,6 +21,16 @@ services:
    image: alpine
    command: sh -c "echo "test""
 ```
-In the above `docker-compose.yml` file, we are executing a single echo command inside the alpine Docker image.
+In the above `docker-compose.yml` file, we are executing a single echo command inside the alpine Docker image.  
 
+---
+### Экспорт/импорт образа в/из файл(а).
+Экспорт в файл:
+```
+docker save -o image-name-1.tar image-name:1
+```
+Импорт из файла:
+```
+docker load -i image-name-1.tar 
+```
 ---
