@@ -115,4 +115,157 @@ chmod u+rwx filename
 chmod g-x filename
 
 ```
+
+---
+Как использовать `venv` в Python — способ создавать изолированные виртуальные окружения.
+
+### 1. Создание виртуального окружения
+
+```bash
+# Python 3 (рекомендуется)
+python -m venv myenv
+
+# Или явно python3, если у вас несколько версий
+python3 -m venv myenv
+
+# Популярные названия папки:
+myenv        ← чаще всего
+venv         ← очень популярно
+.env         ← тоже встречается
+env
+```
+
+После выполнения появится папка `myenv` со своей копией Python и pip.
+
+### 2. Активация виртуального окружения
+
+| ОС          | Команда для активации                          | Как деактивировать    |
+|-------------|------------------------------------------------|-----------------------|
+| Windows     | `myenv\Scripts\activate`                       | `deactivate`          |
+|             | или в PowerShell: `myenv\Scripts\Activate.ps1` |                       |
+| macOS/Linux | `source myenv/bin/activate`                    | `deactivate`          |
+|             | или коротко: `. myenv/bin/activate`            |                       |
+| Git Bash (Windows) | `source myenv/Scripts/activate`          | `deactivate`          |
+
+После активации в терминале появится префикс:
+```bash
+(myenv) C:\your\project>
+(myenv) user@macbook project %
+```
+
+### 3. Работа внутри venv
+
+```bash
+# Установка пакетов — они попадают только в это окружение
+pip install requests django fastapi aiohttp
+
+# Смотрим установленные пакеты
+pip list
+pip freeze
+
+# Сохраняем зависимости в файл (очень важно!)
+pip freeze > requirements.txt
+```
+
+### 4. Деактивация
+
+Просто в любом месте:
+```bash
+deactivate
+```
+Префикс `(myenv)` исчезнет — вы снова в глобальном Python.
+
+### 5. Полный пример реального проекта
+
+```bash
+# 1. Создаём проект
+mkdir myproject
+cd myproject
+
+# 2. Создаём виртуальное окружение
+python -m venv venv
+
+# 3. Активируем
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+# 4. Обновляем pip (всегда полезно)
+pip install --upgrade pip
+
+# 5. Устанавливаем нужные пакеты
+pip install fastapi uvicorn python-dotenv
+
+# 6. Сохраняем зависимости
+pip freeze > requirements.txt
+
+# 7. Добавляем в git (что нужно, а что нет)
+```
+
+### .gitignore — что НЕ коммитить
+
+Создай файл `.gitignore` в корне проекта:
+```
+# Виртуальные окружения
+venv/
+env/
+.env/
+myenv/
+ENV/
+
+# Папки Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env.bak/
+pip-delete-this-directory.txt
+
+# IDE
+.idea/
+.vscode/
+```
+
+### 6. Как другие разработчики запустят твой проект
+
+```bash
+git clone https://github.com/tvoy/login/myproject.git
+cd myproject
+
+# Создадут своё окружение
+python -m venv venv
+source venv/bin/activate      # или venv\Scripts\activate на Windows
+
+# Установят все зависимости одним махом
+pip install -r requirements.txt
+
+# Запустят проект
+uvicorn main:app --reload
+```
+
+### Полезные трюки
+
+```bash
+# Создать и сразу активировать (macOS/Linux)
+python -m venv venv && source venv/bin/activate
+
+# Создать venv с доступом к глобальным пакетам (редко нужно)
+python -m venv venv --system-site-packages
+
+# Проверить, какой Python используется сейчас
+which python      # Linux/macOS
+where python      # Windows
+python --version
+```
+
+Готово! Теперь ты используешь виртуальные окружения как профессионал.
+
+Если часто работаешь с проектами — поставь себе привычку:
+```bash
+mkdir myproject && cd myproject && python -m venv venv && source venv/bin/activate && code .
+```
+— и ты всегда будешь в чистом, изолированном и воспроизводимом окружении.
+
 ---
